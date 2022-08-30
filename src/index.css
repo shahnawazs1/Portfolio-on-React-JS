@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+:root{
+  --Theme-color:#4075F1;
+  --navColor:#ECEAF4;
+  --Theme-gradient:linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+  --text-color:#36454F;
+}
+
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+p{font-size: 1.1rem; color: var(--text-color);}
+.grd{color: var(--Theme-color); display: block;}
+
+.active{color: #40E0D0 !important}
+.header-section{width: 100%; background:var(--navColor); padding: 5px 0;}
+#header p{font-weight: 500;}
+.navbar{font-weight: 600;}
+.navbar-brand{color: var(--Theme-color) !important;}
+
+.btn-hire-Me{ text-decoration: none; border: 2px solid var(--Theme-color) !important; padding: 8px 20px; border-radius: 50px;}
